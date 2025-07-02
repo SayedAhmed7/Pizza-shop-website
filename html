@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Order Task</title>
+  <link rel="stylesheet" href="./css/style.css"/>
+  <link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="icon active"><i class="fa-solid fa-book-open"></i></div>
+      <div class="icon"><i class="fa-solid fa-user"></i></div>
+      <div class="icon"><i class="fa-solid fa-wallet"></i></div>
+      <div class="icon"><i class="fa-solid fa-gear"></i></div>
+      <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+      <div class="icon"><i class="fa-solid fa-chart-pie"></i></div>
+      <div class="icon"><i class="fa-solid fa-message"></i></i></div>
+    </aside>
+
+    <main class="main">
+      <header class="header">
+        <div class="welcome">
+          <p class="gray-color">Hello John</p>
+          <h2>Welcome Back</h2>
+        </div>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search" />
+        </div>
+      </header>
+
+      <section class="promo">
+        <div class="promo-text">
+          <h1>Make Your First Order<br>and Get <span class="orange-color">50% Off</span></h1>
+          <p>n publishing and graphic design, Lorem ipsum is a placeholder<br>
+             text commonly used to demonstrate the visual form of a<br>
+              document or a typeface without.</p>
+          <button>Order Now</button>
+        </div>
+        <div class="promo-img">
+          <img src="./images/mashroum-pizza.png" alt="Mashroum-pizza">
+        </div>
+      </section>
+
+      <section class="menu">
+        <div class="menu-header">
+          <h3>Our Menu</h3>
+          <div class="categories">
+            <span>🍕 Pizza</span>
+            <span>🍔 Burger</span>
+            <span>🍟 Fries</span>
+            <span>🥤 Pack</span>
+            <span class="see-all">See All</span>
+          </div>
+        </div>
+
+        <div class="menu-items">
+          <div class="item">
+            <img src="./images/Peperoni-pizza.png" alt="Pepperoni Pizza">
+            <h4>Pizza with Peperoni</h4>
+            <p>14-20 minutes</p>
+            <span class="green-color">$12</span>
+            <button class="add-btn">+</button>
+          </div>
+          <div class="item">
+            <img src="./images/cheese-pizza.png" alt="Cheese Pizza">
+            <h4>Pizza with Cheese</h4>
+            <p>16-25 minutes</p>
+            <span class="green-color">$14</span>
+            <button class="add-btn">+</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="order">
+      <div class="profile">
+        <img src="./images/profile-icon.png" alt="John Smith">
+        <p>John Smith</p>
+        <div class="bell"><i class="fa-solid fa-bell"></i></div>
+      </div>
+
+      <div class="card">
+        <p class="card-title">Universal Card</p>
+        <div class="ds-flex"><i class="fa-brands fa-cc-mastercard"></i></div>
+        <p class="card-number">5214 4587 9658 1452</p>
+        <div class="card-footer">
+          <span>John Smith</span>
+          <span>12/24</span>
+        </div>
+      </div>
+
+      <div class="order-menu">
+        <h4>Order Menu <span class="see-all">See All</span></h4>
+        <div class="order-item">
+          <img src="./images/second-mashroum-pizza.png" alt="mashroum-pizza">
+          <div>
+            <p>Pizza with Mushrooms</p>
+            <small>8 inch</small>
+            <span class="green-color">$12</span>
+          </div>
+          <div class="qty">
+            <button>-</button>
+            <span>01</span>
+            <button><i class="fa-solid fa-plus"></i></button>
+          </div>
+        </div>
+
+        <div class="order-item">
+          <img src="./images/meat-potato.png" alt="meat with potato">
+          <div>
+            <p>Meat with Potato</p>
+            <small>Extra tomato</small>
+            <span class="green-color">$40</span>
+          </div>
+          <div class="qty">
+            <button>-</button>
+            <span>01</span>
+            <button><i class="fa-solid fa-plus"></i></button>
+          </div>
+        </div>
+
+        <div class="total">
+          <p>Total Price</p>
+          <span class="green-color">$52.00</span>
+        </div>
+        <button class="checkout">Checkout</button>
+      </div>
+    </aside>
+  </div>
+  <script src="./css/all.min.js"></script>
+</body>
+</html>
